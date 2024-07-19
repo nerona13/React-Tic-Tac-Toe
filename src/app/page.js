@@ -100,6 +100,7 @@ export default function Game() {
 
   return (
     <div className="game">
+      <h1>Vercel Automatic Deployment</h1>
       <div className="game-board">
         <Board squares={currentSquares} xIsNext={xIsNext} onPlay={handlePlay} />
       </div>
